@@ -1,2 +1,4 @@
-install/*
-!install/README
+install/osx/*
+!install/osx/osx_instructions.txt
+
+install/windows/*
