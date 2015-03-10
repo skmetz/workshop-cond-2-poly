@@ -11,7 +11,7 @@ Run the tests by:
 $ ruby test/bottles_test.rb
 ```
 
-We've implemented a simple class in ```lib/bottles.rb``` that passes all the
+```lib/bottles.rb``` contains a simple class that passes all the
 tests, so when you run the tests you should see:
 
 ```bash
