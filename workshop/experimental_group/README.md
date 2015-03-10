@@ -1,18 +1,15 @@
 ## Experimental Group
 
 This directory contains the following files:
-*  lib
-  *  bottles.rb
-*  test
-  * bottles_test.rb
+*  lib/bottles.rb
+*  test/bottles_test.rb
 
 Run the tests by:
 ```bash
 $ ruby test/bottles_test.rb
 ```
 
-```lib/bottles.rb``` contains a simple class that passes all the
-tests, so when you run the tests you should see:
+```lib/bottles.rb``` contains a simple class that passes all the tests, so when you run the tests you should see:
 
 ```bash
 $ruby test/bottles_test.rb
@@ -27,16 +24,13 @@ Fabulous run in 0.002125s, 3764.7059 runs/s, 3764.7059 assertions/s.
 8 runs, 8 assertions, 0 failures, 0 errors, 0 skips
 ```
 
-Have a look at the test (```test/bottles_test.rb```) and the code (```lib/bottles.rb```)
-before you proceed.
+Have a look at the test (```test/bottles_test.rb```) and the code (```lib/bottles.rb```) before you proceed.
 
 ##Your tasks are to:
 ### Dry out the strings:
 
-  1. First, watch http://bit.ly/c2p_dry (or grab a red USB drive and look in /workshop  )
-  1. Dry out the strings in ```lib/bottles.rb``` using the technique demostrated in
-  the video.  It's important for the experiment that you follow this technique
-  exactly; we'll wander around and help keep you on track.
+  1. First, watch http://bit.ly/c2p_dry (or grab a red USB drive and look in /workshop for an *.mp4 file.)
+  1. Dry out the strings in ```lib/bottles.rb``` using the technique demostrated in the video.  It's important for the experiment that you follow this technique exactly; I'll wander around and help keep you on track.
 
     For reference, here's the general process:
       1. Select the two song lines that are _most_ alike.
@@ -49,33 +43,26 @@ before you proceed.
       1. Use the result
       1. Clean up unused code
 
-Your code should look like
-https://github.com/skmetz/workshop-cond-2-poly/blob/bottles_2_shameless_to_dry/bottles/lib/bottles.rb
-when you're done.  You may have chosen different method names, but the shape of
-your code should be very, very similar.
+Your code should look like https://github.com/skmetz/workshop-cond-2-poly/blob/bottles_2_shameless_to_dry/bottles/lib/bottles.rb when you're done.  You may have chosen different method names, but the shape of your code should be very, very similar.
 
 ### Extract a BottleNumber class:
-  1. Do an 'Extract Class' refactoring to separate the code for the song from the
-  methods depend solely on the ```number``` argument.
+  Do an 'Extract Class' refactoring to separate the code for the song from the methods depend solely on the ```number``` argument.
   (This will be demo'd, so don't worry if you don't get to it.)
 
-Your code should look like
-https://github.com/skmetz/workshop-cond-2-poly/blob/bottles_3_dry_to_bottle_number/bottles/lib/bottles.rb
-when you're done.
+Your code should look like https://github.com/skmetz/workshop-cond-2-poly/blob/bottles_3_dry_to_bottle_number/bottles/lib/bottles.rb when you're done.
 
-### Turn the conditionals into Objects
+### Turn the conditionals into objects
 I'll demo the technique and then let you write the code.
 
 ### Implement '6-packs'
-Change the code to return '1 six-pack' instead of '6 bottles' when 6 bottles
-remain.
+Change the code to return '1 six-pack' instead of '6 bottles' when 6 bottles remain.
 <pre>
     7 bottles of beer on the wall, 7 bottles of beer,
     Take one down and pass it around, 1 six-pack of beer on the wall.
     1 six-pack of beer on the wall, 1 six-pack of beer,
     Take one down and pass it around, 5 bottles of beer on the wall.
 </pre>
-  1. Now that your code is 'open' to the 6-packs requirement, implement the feature.
+  Now that your code is 'open' to the 6-packs requirement, implement the feature.
 
 
 ## FYI, the Lyrics

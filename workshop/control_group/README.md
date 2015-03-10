@@ -1,18 +1,15 @@
 ## Control Group
 
 This directory contains the following files:
-*  lib
-  *  bottles.rb
-*  test
-  * bottles_test.rb
+*  lib/bottles.rb
+*  test/bottles_test.rb
 
 Run the tests by:
 ```bash
 $ ruby test/bottles_test.rb
 ```
 
-Most of the tests are currently being _skipped_ so when you first run the test
-the output will be:
+Most of the tests are currently being _skipped_ so when you first run the test the output will be:
 ```bash
 $ruby test/bottles_test.rb
 Run options: --seed 33005
@@ -35,11 +32,8 @@ You have skipped tests. Run with --verbose for details.
 
 Your task is to:
 
-  1. Add code to ```lib/bottles.rb``` to make the _all_ of the tests pass.  Use
-whatever strategy you like; you'll be done when no tests are 'skipped' and all
-tests pass.
-  1. Once the tests pass, change the code you've written to be 'open' to
-the following new requirement:
+  1. Add code to ```lib/bottles.rb``` to make the _all_ of the tests pass.  Use whatever strategy you like; you'll be done when no tests are 'skipped' and all tests pass.
+  1. Once the tests pass, change the code you've written to be 'open' to the following new requirement:
 
     _When there are 6 bottles on the wall, say '1 six-pack' instead of
 '6 bottles'._
@@ -49,8 +43,9 @@ the following new requirement:
     1 six-pack of beer on the wall, 1 six-pack of beer,
     Take one down and pass it around, 5 bottles of beer on the wall.
 </pre>
-  1. Now that your code is 'open', add the '6-packs' feature.
+  1. After your code is 'open' to this new requirement, add a new test and implement the '6-packs' feature.
 
+Your challange is to accomplish this task using the fewest 'conditionals' possible.
 
 ## FYI, the original lyrics
 
