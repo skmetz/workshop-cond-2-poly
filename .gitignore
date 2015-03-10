@@ -2,3 +2,5 @@ install/osx/*
 !install/osx/osx_instructions.txt
 
 install/windows/*
+
+workshop/experimental_group/*.mp4
