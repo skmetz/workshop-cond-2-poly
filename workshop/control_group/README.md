@@ -25,8 +25,8 @@ Fabulous run in 0.002608s, 3067.4847 runs/s, 0.0000 assertions/s.
 
   1) Error:
 BottlesTest#test_the_first_verse:
-NoMethodError: undefined method `verse' for #<Bottles:0x007fdde21f6fb8>
-    test/bottles_test.rb:19:in `test_the_first_verse'
+NoMethodError: undefined method `verse' for #<Bottles:0x007ffa7314ed60>
+    test/bottles_test.rb:12:in `test_the_first_verse'
 
 8 runs, 0 assertions, 0 failures, 1 errors, 7 skips
 
@@ -45,14 +45,14 @@ the following new requirement:
 '6 bottles'._
 <pre>
     7 bottles of beer on the wall, 7 bottles of beer,
-    take one down and pass it around, 1 six-pack of beer on the wall.
+    Take one down and pass it around, 1 six-pack of beer on the wall.
     1 six-pack of beer on the wall, 1 six-pack of beer,
-    take one down and pass it around, 5 bottles of beer on the wall.
+    Take one down and pass it around, 5 bottles of beer on the wall.
 </pre>
   1. Now that your code is 'open', add the '6-packs' feature.
 
 
-## FYI, the Lyrics
+## FYI, the original lyrics
 
 ```plain
 99 bottles of beer on the wall, 99 bottles of beer.
