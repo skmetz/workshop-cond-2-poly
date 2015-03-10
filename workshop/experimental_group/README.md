@@ -33,7 +33,7 @@ before you proceed.
 ##Your tasks are to:
 ### Dry out the strings:
 
-  1. First, watch http://bit.ly/ctp_spa1 (or grab a red USB drive and look in /workshop  )
+  1. First, watch http://bit.ly/c2p_dry (or grab a red USB drive and look in /workshop  )
   1. Dry out the strings in ```lib/bottles.rb``` using the technique demostrated in
   the video.  It's important for the experiment that you follow this technique
   exactly; we'll wander around and help keep you on track.
